@@ -20,8 +20,8 @@ public class Camera {
 
     public void tick(){
         if (tempPlayer != null){
-            x = (int) tempPlayer.x - Game.WIDTH/2;
-            y = (int) tempPlayer.y - Game.HEIGHT/2;
+            x = (int) ((int) tempPlayer.x - Game.WIDTH/2.2);
+            y = (int) ((int) tempPlayer.y - Game.HEIGHT/2.3);
         } else findPlayer();
 
     }
